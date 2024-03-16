@@ -21,3 +21,8 @@ api = LANrargiAPI(lgg_apikey, lgg_server)
 archives: list[Archive] = api.archive.get_all_archives()
 print(archives[0])
 ```
+
+# Build
+```shell
+python.exe .\setup.py bdist_wheel sdist
+```
