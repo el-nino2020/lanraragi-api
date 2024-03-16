@@ -6,6 +6,8 @@ a Python library for [LANraragi](https://github.com/Difegue/LANraragi) API.
 
 All the APIs are from [the official LANraragi document](https://sugoi.gitbook.io/lanraragi/api-documentation/getting-started). 
 
+Besides those basic APIs, I also made some enhancements for better use, e.g. [`lanraragi_api.common.entity.Archive#set_artists(self, artists: list[str])`](./lanraragi_api/common/entity.py)
+
 # Demo
 
 ```python
